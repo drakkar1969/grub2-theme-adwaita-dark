@@ -1,1 +1,2 @@
-# grub2-theme-adwaita-dark
+# GRUB2 Theme Adwaita Dark
+Adwaita Dark theme for GRUB2
