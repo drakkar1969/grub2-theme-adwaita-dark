@@ -1,0 +1,61 @@
+# Arch-Mod Grub2 Theme
+
+desktop-image: "background.png"
+
+title-text: ""
+
+terminal-box: "terminal/terminal_box_*.png"
+terminal-font: "Gnu Unifont Mono Regular 16"
+
++ image {
+	left = 50%-100
+	top = 85%
+	file = "arch_grub_logo.png"
+}
+
++ boot_menu {
+	left = 660
+	width = 600
+	top = 230
+	height = 246
+
+	item_font = "DejaVu Sans Bold 14"
+	item_color = "#FFFFFF"
+	item_height = 36
+	item_icon_space = 12
+	item_spacing = 6
+	item_padding = 0
+
+	icon_height = 32
+	icon_width = 32
+
+	selected_item_font = "DejaVu Sans Bold 14"
+	selected_item_color= "#FFFFFF"
+
+	selected_item_pixmap_style = "select/select_*.png"
+
+	scrollbar = false
+}
+
++ progress_bar {
+	id = "__timeout__"
+
+	left = 0
+	top = 100%-7
+	height = 7
+	width = 100%
+
+	fg_color = "#3584E4"
+	bg_color = "#303030"
+	border_color = "#303030"
+}
+
++ label {
+	left = 0
+	top = 50%
+	width = 100%
+	text = "ENTER: Boot Selection     E: Edit Selection     C: GRUB Command Line"
+	font = "DejaVu Sans Bold 14"
+	color = "#FFFFFF"
+	align = "center"
+}
