@@ -46,8 +46,8 @@ terminal-font: "Gnu Unifont Mono Regular 16"
 	width = 100%
 
 	fg_color = "#3584E4"
-	bg_color = "#303030"
-	border_color = "#303030"
+	bg_color = "#242424"
+	border_color = "#242424"
 }
 
 + label {
