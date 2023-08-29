@@ -17,7 +17,7 @@ terminal-font: "Gnu Unifont Mono Regular 16"
 	left = 660
 	width = 600
 	top = 230
-	height = 204
+	height = 246
 
 	item_font = "DejaVu Sans Bold 14"
 	item_color = "#FFFFFF"
@@ -52,7 +52,7 @@ terminal-font: "Gnu Unifont Mono Regular 16"
 
 + label {
 	left = 0
-	top = 46%
+	top = 50%
 	width = 100%
 	text = "ENTER: Boot Selection     E: Edit Selection     C: GRUB Command Line"
 	font = "DejaVu Sans Bold 14"
