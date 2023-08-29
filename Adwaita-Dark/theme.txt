@@ -11,7 +11,7 @@ terminal-font: "Gnu Unifont Mono Regular 16"
 	left = 660
 	width = 600
 	top = 230
-	height = 246
+	height = 270
 
 	menu_pixmap_style = "menu/bg_*.png"
 
@@ -20,7 +20,7 @@ terminal-font: "Gnu Unifont Mono Regular 16"
 	item_height = 36
 	item_icon_space = 12
 	item_spacing = 6
-	item_padding = 10
+	item_padding = 0
 
 	icon_height = 32
 	icon_width = 32
