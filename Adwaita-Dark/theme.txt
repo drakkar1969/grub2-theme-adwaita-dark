@@ -7,17 +7,13 @@ title-text: ""
 terminal-box: "terminal/terminal_box_*.png"
 terminal-font: "Gnu Unifont Mono Regular 16"
 
-+ image {
-	left = 50%-100
-	top = 85%
-	file = "arch_grub_logo.png"
-}
-
 + boot_menu {
 	left = 660
 	width = 600
 	top = 230
 	height = 246
+
+	menu_pixmap_style = "menu/bg_*.png"
 
 	item_font = "DejaVu Sans Bold 14"
 	item_color = "#FFFFFF"
@@ -32,9 +28,25 @@ terminal-font: "Gnu Unifont Mono Regular 16"
 	selected_item_font = "DejaVu Sans Bold 14"
 	selected_item_color= "#FFFFFF"
 
-	selected_item_pixmap_style = "select/select_*.png"
+	selected_item_pixmap_style = "menu/item_*.png"
 
 	scrollbar = false
+}
+
++ label {
+	left = 0
+	top = 50%
+	width = 100%
+	text = "ENTER: Boot Selection     E: Edit Selection     C: GRUB Command Line"
+	font = "DejaVu Sans Bold 14"
+	color = "#FFFFFF"
+	align = "center"
+}
+
++ image {
+	left = 50%-100
+	top = 85%
+	file = "arch_grub_logo.png"
 }
 
 + progress_bar {
@@ -48,14 +60,4 @@ terminal-font: "Gnu Unifont Mono Regular 16"
 	fg_color = "#3584E4"
 	bg_color = "#242424"
 	border_color = "#242424"
-}
-
-+ label {
-	left = 0
-	top = 50%
-	width = 100%
-	text = "ENTER: Boot Selection     E: Edit Selection     C: GRUB Command Line"
-	font = "DejaVu Sans Bold 14"
-	color = "#FFFFFF"
-	align = "center"
 }
