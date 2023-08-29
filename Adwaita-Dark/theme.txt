@@ -39,7 +39,7 @@ terminal-font: "Gnu Unifont Mono Regular 16"
 	width = 100%
 	text = "ENTER: Boot Selection     E: Edit Selection     C: GRUB Command Line"
 	font = "DejaVu Sans Bold 14"
-	color = "#FFFFFF"
+	color = "#F6F5F4"
 	align = "center"
 }
 
