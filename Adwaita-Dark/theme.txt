@@ -5,8 +5,8 @@ desktop-image: "background.png"
 title-text: ""
 
 terminal-font: "Gnu Unifont Mono Regular 16"
-terminal-width: "1920"
-terminal-height: "1080"
+terminal-width: "100%"
+terminal-height: "100%"
 
 + boot_menu {
 	left = 660
