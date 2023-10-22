@@ -4,7 +4,6 @@ desktop-image: "background.png"
 
 title-text: ""
 
-terminal-box: "terminal/terminal_box_*.png"
 terminal-font: "Gnu Unifont Mono Regular 16"
 terminal-width: "1920"
 terminal-height: "1080"
