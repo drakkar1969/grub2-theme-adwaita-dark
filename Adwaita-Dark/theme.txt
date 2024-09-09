@@ -13,7 +13,7 @@ terminal-height: "100%"
 	left = 50%-290
 	width = 580
 	top = 380
-	height = 270
+	height = 228
 
 	menu_pixmap_style = "menu/bg_*.png"
 
