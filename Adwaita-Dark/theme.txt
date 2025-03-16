@@ -4,7 +4,7 @@ desktop-image: "background.png"
 
 title-text: ""
 
-terminal-font: "Hack Regular 14"
+terminal-font: "Hack Regular 20"
 terminal-width: "100%"
 terminal-height: "100%"
 
