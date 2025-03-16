@@ -10,18 +10,18 @@ terminal-height: "100%"
 
 # Note: menu height is n * item_height + (n-1) * item_spacing + 2 * 12
 + boot_menu {
-	left = 50%-290
-	width = 580
-	top = 380
-	height = 228
+	left = 50%-300
+	width = 600
+	top = 410
+	height = 266
 
 	menu_pixmap_style = "menu/bg_*.png"
 
 	item_font = "Roboto Regular 24"
 	item_color = "#FFFFFF"
-	item_height = 36
+	item_height = 42
 	item_icon_space = 12
-	item_spacing = 6
+	item_spacing = 8
 	item_padding = 0
 
 	icon_height = 32
@@ -38,7 +38,7 @@ terminal-height: "100%"
 # Note: label top is boot menu bottom * 40
 + label {
 	left = 0
-	top = 690
+	top = 760
 	width = 100%
 	text = "ENTER: Boot Selection     E: Edit Selection     C: GRUB Command Line"
 	font = "Roboto Regular 22"
