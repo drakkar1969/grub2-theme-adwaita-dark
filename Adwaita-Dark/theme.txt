@@ -13,7 +13,7 @@ terminal-height: "100%"
 	left = 50%-360
 	width = 720
 	top = 450
-	height = 296
+	height = 408
 
 	menu_pixmap_style = "menu/bg_*.png"
 
@@ -38,7 +38,7 @@ terminal-height: "100%"
 # Note: label top is boot menu bottom * 40
 + label {
 	left = 0
-	top = 830
+	top = 930
 	width = 100%
 	text = "ENTER: Boot Selection     E: Edit Selection     C: GRUB Command Line"
 	font = "Roboto Regular 22"
