@@ -41,7 +41,7 @@ terminal-height: "100%"
 	top = 940
 	width = 100%
 	text = "ENTER: Boot Selection     E: Edit Selection     C: GRUB Command Line"
-	font = "Adwaita Sans Bold 18"
+	font = "Adwaita Sans Bold 20"
 	color = "#C0BFBC"
 	align = "center"
 }
