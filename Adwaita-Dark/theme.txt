@@ -11,7 +11,7 @@ terminal-height: "100%"
 # Note: menu height is n * item_height + (n-1) * item_spacing + 2 * 15 (height of menu images)
 + boot_menu {
 	left = 50%-360
-	width = 720
+	width = 800
 	top = 450
 	height = 414
 
