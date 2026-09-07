@@ -13,7 +13,7 @@ terminal-height: "100%"
 	top = 50%-300+15
 	width = 20%
 	text = "Arch Linux  |  Boot Menu"
-	font = "Adwaita Sans Bold 20"
+	font = "Adwaita Sans Regular 20"
 	color = "#FFFFFF"
 	align = "left" 
 }
@@ -23,7 +23,7 @@ terminal-height: "100%"
 	top = 50%-300+15
 	width = 20%
 	text = "[ e  Edit   |   c  Console ]"
-	font = "Adwaita Sans Bold 20"
+	font = "Adwaita Sans Regular 20"
 	color = "#FFFFFF"
 	align = "right" 
 }
@@ -33,7 +33,7 @@ terminal-height: "100%"
 	top = 50%+247-68+3
 	width = 20%
 	text = "[ ENTER  Accept ]"
-	font = "Adwaita Sans Bold 20"
+	font = "Adwaita Sans Regular 20"
 	color = "#FFFFFF"
 	align = "right" 
 }
@@ -69,9 +69,6 @@ terminal-height: "100%"
 
 	icon_height = 32
 	icon_width = 32
-
-	selected_item_font = "Adwaita Sans Bold 22"
-	selected_item_color= "#FFFFFF"
 
 	selected_item_pixmap_style = "menu/item_*.png"
 
