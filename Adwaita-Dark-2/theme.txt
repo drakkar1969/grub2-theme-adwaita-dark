@@ -41,10 +41,10 @@ terminal-height: "100%"
 + progress_bar {
 	id = "__timeout__"
 
-	left = 30%
-	top = 50%-300+60
-	height = 5
-	width = 40%
+	left = 0
+	top = 100%-7
+	height = 7
+	width = 100%
 
 	fg_color = "#3584E4"
 	bg_color = "#36363A"
