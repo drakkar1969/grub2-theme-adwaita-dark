@@ -47,8 +47,8 @@ terminal-height: "100%"
 	width = 100%
 
 	fg_color = "#3584E4"
-	bg_color = "#36363A"
-	border_color = "#36363A"
+	bg_color = "#1D1D20"
+	border_color = "#1D1D20"
 }
 
 # Note: menu height is n * item_height + (n-1) * item_spacing + 95 + 68 (height of menu images) - item_padding
