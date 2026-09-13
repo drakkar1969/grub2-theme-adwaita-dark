@@ -60,7 +60,7 @@ terminal-height: "100%"
 
 	menu_pixmap_style = "menu/menu_*.png"
 
-	item_font = "Adwaita Sans Regular 22"
+	item_font = "Adwaita Sans Bold 22"
 	item_color = "#FFFFFF"
 	item_height = 48
 	item_icon_space = 12
